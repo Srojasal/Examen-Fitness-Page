@@ -1,0 +1,65 @@
+
+.nav-list {
+  display: flex;
+  align-items: baseline;
+  transition: transform 0.3s ease;
+
+}
+
+.nav-list li + li {
+  margin-left: 32px;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: 500;
+  color: $color-texto;
+}
+
+.nav-link:hover {
+  color: $color-primario;
+}
+
+
+.nav-toggle-checkbox {
+  display: none;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 28px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.menu-toggle-bar {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: $color-oscuro;
+  border-radius: 2px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+#nav-toggle:checked ~ .container .menu-toggle .menu-toggle-bar:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+#nav-toggle:checked ~ .container .menu-toggle .menu-toggle-bar:nth-child(2) {
+  opacity: 0;
+}
+
+#nav-toggle:checked ~ .container .menu-toggle .menu-toggle-bar:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+.nav-overlay {
+  display: none;
+}
+
+body:has(#nav-toggle:checked) {
+  overflow: hidden;
+}

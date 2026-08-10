@@ -1,0 +1,86 @@
+.hero {
+    width: 100%;
+    padding: 64px 0 24px;
+    background-color: $color-fondo-alterno;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// parte / total (container) x 100
+// 460 / 1140 (container) x 100 = 40.35% ≈ 40%
+.hero-content {
+    max-width: 40%;
+}
+
+.hero-title {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.title-highlight {
+    display: block;
+    color: $color-primario;
+}
+
+.hero-text {
+    color: $color-texto-claro;
+    margin-bottom: 32px;
+}
+
+// parte / total (container) x 100
+// 450 / 1140 (container) x 100 = 39.47% ≈ 39%
+.hero-image {
+    position: relative;
+    width: 450px;
+}
+
+.hero-illustration {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+}
+
+// parte / total (hero-image) x 100
+// 325 / 450 (hero-image) x 100 = 72.22% ≈ 72%
+.hero-shadow {
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    width: 72%;
+    z-index: 0;
+}
+
+.hero-indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    margin-top: 48px;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.indicator:nth-child(1) {
+    background-color: $color-primario;
+}
+
+.indicator:nth-child(2) {
+    background-color: rgba($color-primario, 0.55);
+}
+
+.indicator:nth-child(3) {
+    background-color: rgba($color-primario, 0.25);
+}

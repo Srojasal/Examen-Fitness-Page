@@ -1,0 +1,24 @@
+.clients {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.clients-title {
+  font-size: 28px;
+  margin-bottom: 8px;
+  margin-top: 50px;
+}
+
+.clients-subtitle {
+  color: $color-texto-claro;
+  margin-bottom: 48px;
+}
+
+// parte / total x 100
+// 1140 / 1140  x 100 = 100%
+.clients-list {
+  width: 100%;
+  margin: 0 auto;
+
+}

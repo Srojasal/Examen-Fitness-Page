@@ -1,0 +1,53 @@
+.testimonial {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  background-color: $color-fondo-alterno;
+}
+
+// parte / total (container) x 100
+// 260 / 1140 (container) x 100 = 22.81% ≈ 23%
+.testimonial-logo {
+  width: 23%;
+  float: left;
+  border-radius: 8px;
+}
+
+// parte / total (container) x 100
+// 830 / 1140 (container) x 100 = 72.81% ≈ 73%
+.testimonial-content {
+  width: 73%;
+  float: right;
+}
+
+.testimonial-text {
+  color: $color-texto-claro;
+  margin-bottom: 24px;
+}
+
+.testimonial-author {
+  font-weight: 700;
+  color: $color-primario;
+}
+
+.testimonial-role {
+  color: $color-texto-claro;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.testimonial-clients {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.testimonial-client {
+  width: 32px;
+  margin-right: 12px;
+}
+
+.testimonial-link {
+  color: $color-primario;
+  font-weight: 600;
+  font-size: 14px;
+}

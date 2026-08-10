@@ -1,0 +1,193 @@
+@media only screen and (max-width: $tablet-breakpoint) {
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #header .container {
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 16px;
+    padding: 24px 0;
+  }
+
+  #nav {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .menu-toggle {
+    display: flex;
+    position: absolute;
+    top: 24px;
+    right: 30px;
+  }
+
+  .logo {
+    align-self: flex-start;
+    margin: 0;
+  }
+
+  .nav-list {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 8px;
+  }
+
+  .nav-list.is-open {
+    display: flex;
+  }
+
+  .nav-list li {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .nav-list li + li {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .nav-link {
+    display: block;
+  }
+
+  .header-actions {
+    width: 100%;
+  }
+
+  .hero .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero {
+    padding-top: 48px;
+    padding-bottom: 24px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .hero-title {
+    font-size: 2.125rem;
+  }
+
+  .hero-image {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .clients-list {
+    width: 100%;
+  }
+
+  .community-title {
+    max-width: 100%;
+  }
+
+  .community-card {
+    width: 100%;
+    float: none;
+  }
+
+  .community-card + .community-card {
+    margin-left: 0;
+    margin-top: 24px;
+  }
+
+  .showcase-image {
+    width: 100%;
+    max-width: 360px;
+    float: none;
+    height: 330px;
+    margin: 0 auto 32px;
+  }
+
+  // Footer guide
+  .footer-guide-image {
+    width: 100%;
+    max-width: 300px;
+    float: none;
+    margin-bottom: 32px;
+  }
+
+  .footer-guide-content {
+    width: 100%;
+    float: none;
+  }
+
+  // Testimonial
+  .testimonial-logo {
+    width: 100%;
+    max-width: 260px;
+    float: none;
+    margin-bottom: 32px;
+  }
+
+  .testimonial-content {
+    width: 100%;
+    float: none;
+  }
+
+  // Blog
+  .blog-card {
+    width: 100%;
+    float: none;
+  }
+
+  .blog-card + .blog-card {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .blog-card-body {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  // Cta
+  .cta-title {
+    max-width: 100%;
+  }
+
+  // Footer
+  .footer-brand {
+    width: 100%;
+    float: none;
+    margin-bottom: 32px;
+  }
+
+
+  .footer-logo {
+    max-width: 255px;
+  }
+
+  .footer-social {
+    max-width: 250px;
+  }
+
+  .footer-col {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    margin-bottom: 24px;
+  }
+
+  .footer-newsletter {
+    width: 100%;
+    float: none;
+  }
+}

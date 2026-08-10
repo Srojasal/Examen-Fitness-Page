@@ -1,0 +1,322 @@
+*,
+*::before,
+*::after {
+
+
+    box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: $mobile-breakpoint) {
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+
+
+  // Header
+  #header .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+
+.logo {
+  align-self: flex-start;
+  margin: 0;
+}
+
+.logo img {
+  height: 36px;
+}
+
+  #nav {
+    width: 100%;
+    margin: 0;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 8px;
+  }
+
+  .nav-list.is-open {
+    display: flex;
+  }
+
+  .nav-list li {
+    width: 100%;
+    margin: 0;
+  }
+
+  .nav-list li + li {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .nav-link {
+    display: block;
+  }
+
+
+
+  .header-actions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 12px;
+  }
+
+  .login-link {
+    margin: 0;
+  }
+
+  // Hero
+  .hero .container {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .hero {
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .hero-content {
+    width: 100%;
+    max-width: 100%;
+    float: none;
+    margin: 0 0 24px;
+    box-sizing: border-box;
+  }
+
+  .hero-title {
+    width: 100%;
+    max-width: 100%;
+    font-size: 36px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+
+  .hero-text {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .hero-image {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .hero-shadow {
+    display: none;
+  }
+
+  // Clients
+  .clients-list {
+    width: 100%;
+  }
+
+  // Community
+  .community-title {
+    font-size: 22px;
+  }
+
+  .community-card {
+    width: 100%;
+    float: none;
+  }
+
+  .community-card + .community-card {
+    margin-left: 0;
+    margin-top: 16px;
+  }
+
+  // Showcase
+  .showcase-image {
+    width: 100%;
+    float: none;
+    height: 260px;
+    margin-bottom: 24px;
+  }
+
+  .showcase-illustration {
+    width: 130px;
+  }
+
+  .showcase-character-1 {
+    width: 70px;
+    left: 20px;
+  }
+
+  .showcase-character-2 {
+    width: 65px;
+    right: 25px;
+  }
+
+  .showcase-content {
+    width: 100%;
+    float: none;
+  }
+
+  .showcase-title {
+    font-size: 22px;
+  }
+
+  // Stats
+  .stats-content {
+    width: 100%;
+    float: none;
+    margin-bottom: 24px;
+  }
+
+  .stats-list {
+    width: 100%;
+    float: none;
+  }
+
+  .stat-item {
+    width: 100%;
+    float: none;
+  }
+
+  .footer-guide {
+    width: 100%;
+  }
+
+  // Footer guide
+  .footer-guide-image {
+    width: 100%;
+    max-width: 220px;
+    float: none;
+    margin-bottom: 0 auto 24px;
+  }
+
+  .footer-guide-content {
+    width: 100%;
+    max-width: 100%;
+    float: none;
+    margin: 0;
+    box-sizing: border-box;
+
+  }
+
+  .footer-guide-title {
+    font-size: 22px;
+    line-height: 1.3;
+    margin: 0 0 16px;
+  }
+
+
+  footer-guide-content p {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 24px;
+    box-sizing: border-box;
+  }
+
+  .footer-guide-content a,
+  .footer-guide-content button {
+    display: inline-block;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+
+  // Testimonial
+  .testimonial-logo {
+    width: 100%;
+    max-width: 200px;
+    float: none;
+    margin-bottom: 24px;
+  }
+
+  .testimonial-content {
+    width: 100%;
+    float: none;
+  }
+
+  .testimonial-clients {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  // Blog
+  .blog-title {
+    font-size: 22px;
+  }
+
+  .blog-card {
+    width: 100%;
+    float: none;
+  }
+
+  .blog-card + .blog-card {
+    margin-left: 0;
+    margin-top: 32px;
+  }
+
+  .blog-card-body {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  // Cta
+  .cta-title {
+    font-size: 24px;
+  }
+
+  // Footer
+  .footer-brand {
+    width: 100%;
+    float: none;
+    margin-bottom: 24px;
+  }
+
+  .footer-col {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .footer-newsletter {
+    width: 100%;
+    float: none;
+  }
+
+  .wrap-form,
+  .input {
+    width: 100%;
+  }
+}

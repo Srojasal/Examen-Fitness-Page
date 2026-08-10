@@ -1,0 +1,65 @@
+.blog {
+  text-align: center;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.blog-title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.blog-subtitle {
+  text-align: center;
+  color: $color-texto-claro;
+  max-width: 620px;
+  margin: 0 auto 48px;
+}
+
+// parte / total x 100
+// 364 / 1140 x 100 = 31.93% ≈ 32%
+.blog-card {
+  width: 32%;
+  float: left;
+  text-align: center;
+}
+
+// parte / total (container) x 100
+// 24 / 1140 (container) x 100 = 2.1% ≈ 2%
+.blog-card + .blog-card {
+  margin-left: 2%;
+}
+
+.blog-card-image {
+  text-align: center;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.blog-card-body {
+  position: relative;
+
+  // parte / total x 100
+  // 50 / 364 x 100 = 13.7% ≈ 14%
+  margin: -50px 14% 0;
+  background-color: $color-fondo;
+  border-radius: 8px;
+  box-shadow: 0 15px 30px rgba($color-oscuro, 0.12);
+
+}
+
+.blog-card-title {
+  font-size: 16px;
+  padding: 20px 20px 12px;
+}
+
+.blog-card-link {
+  display: block;
+  color: $color-primario;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0 20px 20px;
+}
