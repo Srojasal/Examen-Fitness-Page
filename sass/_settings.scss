@@ -1,26 +1,19 @@
-
-// ---------------
-// Variables a utilizar Más adelante
-//----------------
-
-$color-primario: #4caf50;
-$color-primario-oscuro: #3d9140;
-$color-primario-claro: #e8f5e9;
-
-$color-oscuro: #1f2a33;
+// Colores
+$color-primario: #2e8fc7;
+$color-secundario: #6cc9ab;
+$color-secundario-oscuro: #4fae90;
 $color-texto: #333333;
-$color-texto-claro: #6b7280;
+$color-texto-claro: #8a8a8a;
+$color-blanco: #ffffff;
+$color-fondo-suave: #f2fbf8;
+$color-borde: #e2e2e2;
 
-$color-fondo: #ffffff;
-$color-fondo-alterno: #f5f6fa;
-$color-borde: #e5e7eb;
-$color-placeholder: #d9dde3;
+// Tipografía
+$font-base:  Arial, sans-serif;
 
+// Layout
 $ancho-contenedor: 1170px;
-$espaciado: 24px;
-$radio-borde: 8px;
-$transicion: 0.3s ease;
+
 
 $tablet-breakpoint: 1023px;
 $mobile-breakpoint: 767px;
-
