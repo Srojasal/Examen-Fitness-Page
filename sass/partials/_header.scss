@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 32px;
+
+}
+
+.logo{
+    height: 29px
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nat-item{
+    float: left;
+    list-style: none;
+    margin-left: 32px;
+    font-size: 18px;
+    font-weight: 400;
+    color: $color-texto-claro;
+    transition: color 0.3s;
+}
+
+.nav-item:first-child {
+    margin-left: 0;
+}
+.nav-item:hover {
+    color: $color-secundario;
+
+}
+
+.nat-item:nth-child(1){
+    color: $color-texto;
+    font-weight: 600;
+}

@@ -1,0 +1,21 @@
+
+.boton {
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+  background-color: $color-secundario;
+  color: $color-blanco;
+  font-family: $font-base;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding-top: 11px;
+  padding-bottom:11px;
+  padding-left: 26px;
+  padding-right: 26px;
+  transition: background-color 0.3s;
+}
+
+.boton:hover {
+  background-color: $color-secundario-oscuro;
+}
