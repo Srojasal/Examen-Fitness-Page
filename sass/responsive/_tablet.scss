@@ -1,0 +1,31 @@
+@media only screen and (max-width: $tablet-breakpoint) {
+
+    .contenedor {
+        width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .tarjeta-principal {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .nav-item {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .titulo {
+        font-size: 28px;
+    }
+
+    .texto {
+        font-size: 14px;
+    }
+
+    .hero-image::before {
+        width: 260px;
+        height: 260px;
+    }
+}

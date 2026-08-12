@@ -1,0 +1,84 @@
+@media only screen and (max-width: $mobile-breakpoint) {
+
+    .contenedor {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .tarjeta-principal {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        position: relative;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 16px;
+    }
+
+    .header-logo {
+        margin-bottom: 16px;
+    }
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin-left: 16px;
+        font-size: 13px;
+    }
+
+    .nav-item:first-child {
+        margin-left: 0;
+    }
+
+    .columna-texto,
+    .columna-imagen {
+        float: none;
+        width: 100%;
+    }
+
+    .columna-imagen {
+        margin-top: 24px;
+    }
+
+    .titulo-box {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .titulo {
+        font-size: 22px;
+    }
+
+    .boton {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hero-image::before {
+        width: 220px;
+        height: 220px;
+    }
+
+    .medidas {
+        font-size: 12px;
+    }
+
+    .footer {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .footer-text {
+        font-size: 12px;
+    }
+}

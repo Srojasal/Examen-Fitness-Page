@@ -1,0 +1,89 @@
+.hero {
+    position: relative;
+    padding-top: 18px;
+    padding-bottom: 50px;
+}
+
+.hero::after {
+    display: table;
+    clear: both;
+}
+
+
+//parte / total de contenedor x 100
+//48 /100 = 0.48%
+
+.columna-texto {
+    float: left;
+    width: 48%;
+    position: relative;
+}
+
+.columna-imagen {
+    float: right;
+    width: 48%;
+    position: relative;
+
+}
+
+.titulo-box {
+    border: 1px solid $color-primario;
+    border-radius: $radio-borde;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+}
+
+.titulo {
+    font-family: $font-base;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $color-texto;
+}
+
+
+
+.medidas {
+    position: absolute;
+    z-index: 2;
+    background-color: $color-primario;
+    color: $color-fondo-suave;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: $radio-borde;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 8px;
+}
+
+
+.puntos {
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.punto {
+    float: left;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: $color-fondo-suave;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.punto:nth-child(3n) {
+    background-color: $color-secundario;
+}
+
+.punto:last-child {
+    margin-right: 0;
+
+
+}
